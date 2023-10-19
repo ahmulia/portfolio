@@ -1,6 +1,5 @@
 import React from "react"
 import "./main.css"
-import slika from "../../public/Images/slika.jpg"
 
 
 const Main = () => {
@@ -23,7 +22,7 @@ const Main = () => {
             </div>
 
             
-            <img className="mainImg" src={slika}  ></img>
+            <img className="mainImg" src={"./portfolio/Images/slika.jpg"}  ></img>
            
  
     </section>
